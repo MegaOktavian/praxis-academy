@@ -27,15 +27,15 @@
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Gambar07.PNG)
 
 
-   ### Catatan : Masukkan beberapa file yang diperlukan ###
+   ### Masukkan beberapa file yang diperlukan ###
 
 
 7. Menambahkan file untuk git 
 
-   ###### Satu per satu ######
+   ##### Satu per satu #####
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Gambar08.PNG)
 
-   ###### Semua file ######
+   ##### Semua file #####
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Gambar09.PNG)
 
 
@@ -46,7 +46,7 @@
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Gambar11.PNG)
 
 
-   ### Catatan : Buatlah repo bernama rhymes di Gihub ###
+   ### Buatlah repo bernama rhymes di Gihub ###
 
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Github01.PNG)
 
