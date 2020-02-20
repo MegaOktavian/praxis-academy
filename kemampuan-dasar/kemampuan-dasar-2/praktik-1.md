@@ -31,6 +31,7 @@
 
 
 7. Item 7 Menambahkan file untuk git 
+
    ###### Satu per satu ######
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Gambar08.PNG)
 
@@ -39,17 +40,19 @@
 
 
 8. Item 8 Melihat history commit
+
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Gambar10.PNG)
 
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Gambar11.PNG)
 
 
-   ###catatan : Buatlah repo bernama rhymes di Gihub ###
+   ### Catatan : Buatlah repo bernama rhymes di Gihub ###
 
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Github01.PNG)
 
 
 9. Item 9 Push semua kedalam repo di Github
+
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Gambar12.PNG)
    <br></br>
    ![gambar 1](https://github.com/MegaOktavian/rhymes/blob/master/Gambar1/Github02.PNG)
