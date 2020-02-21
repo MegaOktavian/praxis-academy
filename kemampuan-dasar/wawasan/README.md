@@ -92,7 +92,7 @@ View Model adalah kerangaka kerja yang memberikan sudut pandang pada sistem dan 
 
 #### Proses Bisnis dan Pemodelan Data #####
 
-   ![wawasan](https://github.com/MegaOktavian/rhymes/blob/master/Wawasan/Gambar02.PNG)
+   ![wawasan](https://github.com/MegaOktavian/rhymes/blob/master/Wawasan/Gambar03.PNG)
 
 1. Sebuah model bisnis menggambarkan fungsi yang terkait dengan proses bisnis yang dimodelkan dan organisasi yang melakukan fungsi - fungsi ini.
 2. Sebuah model data menyediakan rincian informasi yang akan disimpan dan penggunaan primer ketika produk akhir adalah generasi komputer kode oftware untuk apilkasi atau penyusunan spesifikasi fungsional untuk membantu sebuah perangkat lunak komputer untuk membuat keputusan
