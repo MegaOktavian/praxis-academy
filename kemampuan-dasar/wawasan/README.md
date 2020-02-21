@@ -20,7 +20,7 @@ Pengolahan data elektronik meliputi :
 ### Software (Perangkat Lunak) ###
 Software adalah kumpulan data atau intruksi komputer yang memberi tahu komputer cara untuk bekerja. Software meliputi program komputer, libraries, dan non-executable terkait data.
 
-![wawasan](https://github.com/MegaOktavian/rhymes/blob/master/Wawasan/Gambar01.PNG)
+                         ![wawasan](https://github.com/MegaOktavian/rhymes/blob/master/Wawasan/Gambar01.PNG)
 
 Diagram diatas menunjukkan bagaimana pengguna berinteraksi dengan perangkat lunak (software) aplikasi pada desktop komputer biasa. Lapisan perangkat lunak aplikasi (software) antarmuka dengan sistem operasi, yang pada gilirannya berkomunikasi dengan perangkat keras (hardware). Panah menunjukkan aliran informasi.
 
