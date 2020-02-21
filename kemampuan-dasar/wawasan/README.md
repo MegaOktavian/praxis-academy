@@ -6,7 +6,7 @@ Teknologi Informasi adalah penggunaan komputer untuk menyimpan, mengambil, mengi
 Menurut Harold J. Leavitt and Thomas L. Whisle, TI terdiri dari 3 kategori yaitu teknik untuk pemrosesan, penerapan metode statik dan matematika untuk pengambilan keputusan, dan simulasi perkiraan tingkat tinggi melalui program komputer.Empat fase perkembangan TI : 
 - Pra-mekanis (3000 SM - 1450 M)
 - Mekanis (1450 - 1840)
-- eEektromekanisme (1840 - 1940)
+- Elektromekanisme (1840 - 1940)
 - Elektronik (1940 - ...)
 
 
@@ -17,4 +17,10 @@ Pengolahan data elektronik meliputi :
 4. Transaksi Data
 5. Manipulasi Data
 
-### Perangkat Lunak (Software) ###
+### Software (Perangkat Lunak) ###
+Software adalah kumpulan data atau intruksi komputer yang memberi tahu komputer cara untuk bekerja. Software meliputi program komputer, libraries, dan non-executable terkait data.
+
+![wawasan](https://github.com/MegaOktavian/rhymes/blob/master/Wawasan/Gambar01.PNG)
+
+Diagram diatas menunjukkan bagaimana pengguna berinteraksi dengan perangkat lunak (software) aplikasi pada desktop komputer biasa. Lapisan perangkat lunak aplikasi (software) antarmuka dengan sistem operasi, yang pada gilirannya berkomunikasi dengan perangkat keras (hardware). Panah menunjukkan aliran informasi.
+
