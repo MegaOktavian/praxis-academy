@@ -53,3 +53,48 @@ Informatics adalah cabang dari rekayasa informasi yang melibatkan praktik pengol
 Computer Science adalah studi tentang teori, eksperimen, dan teknik yang membentuk dasar untuk desain dan penggunaan komputer. Ini adalah pendekatan ilmiah dan praktis untuk komputasi dan aplikasinya dan studi sistematis kelayakan, struktur, ekspresi, dan mekanisasi dari prosedur metodis (atau algoritma) yang mendasari akuisisi, representasi, pemrosesan, penyimpanan, komunikasi, dan akses untuk informasi.
 
 ### Software Development ###
+Software Development adalah proses memahami, menentukan, merancang, memprogram, mendokumentasikan, menguji dan memperbaiki bug yang terlibat dalam membuat dan memelihara aplikasi, kerangka kerja, atau komponen software lainnya. Software Development mencakup penelitian, pengembangan baru, pembuatan prototype, mofifikasi, penggunaan kembali, rekayasa ulang, pemeliharaan atau kegiatan lain yang menghasilkan produk software. Tiga tujuan software dikembangkan :
+- Untuk memenuhi kebutuhan fisik dari client atau bisnis tertentu
+- Untuk memenuhi kebutuhan yang dirasakan dari beberapa pengguna potensi
+- Untuk penggunaan pribadi
+
+#### Metodologi #####
+adalah suatu kerangka kerja yang digunakan untuk struktur, rencana, dan mengontrol proses pengembangan sistem informasi. Tahap pengembangan software :
+1. Menganalisis masalah
+2. Riset Pasar
+3. Mengumpilkan persyaratan untuk solusi bisnis yang diusulkan
+4. Menyusun rencana dan desain untuk solusi berbasis software
+5. Implementasi dari software
+6. Pengujian software
+7. Deployment
+8. Maintenance dan perbaikan bug
+
+#### Kegiatan Pengembangan Software #####
+1. Identifikasi Masalah
+   Berasal dari pasar termasuk demografi calon pelanggan baru, pelanggan lama, prospek penjualan yang menolak produk, staff pengembangan software internl lainnya atau pihak ketiga yang kreatif.
+2. Perancangan
+   Tujuan dari setiap kegiatan dimana menentukan hal - hal yang termasuk dalam proyek.
+3. Merancang
+   Ditetapkan dalam dokumen desain software
+4. Implementasi, pengujian dan dokumentasi
+   - Implementasi : memprogram kode untuk proyek tersebut
+   - Pengujian software : fase untuk memastikan bahwa cacat dikenali sesegera mungkin
+   - Dokumentasi : bertujuan untuk memastikan bahwa penengkatan kedepannya
+5. Penetapan dan pemeliharaan
+   - Penetapan : dimulai langsung setelah kode diuji dengan tepat, disetujui untuk dirilis, dan dijual atau didistribusikan ke lingkungan produksi
+   - Pemeliharaan : meningkatkan software untuk mengatasi kesalahan
+
+#### View Model #####
+
+   ![wawasan](https://github.com/MegaOktavian/rhymes/blob/master/Wawasan/Gambar02.PNG)
+
+View Model adalah kerangaka kerja yang memberikan sudut pandang pada sistem dan lingkungan, yang akan digunakan pada proses pengembangan perangkat lunak. Ini adalah representasi grafis dari semantik yang mendasari pandangan.
+
+#### Proses Bisnis dan Pemodelan Data #####
+
+   ![wawasan](https://github.com/MegaOktavian/rhymes/blob/master/Wawasan/Gambar02.PNG)
+
+1. Sebuah model bisnis menggambarkan fungsi yang terkait dengan proses bisnis yang dimodelkan dan organisasi yang melakukan fungsi - fungsi ini.
+2. Sebuah model data menyediakan rincian informasi yang akan disimpan dan penggunaan primer ketika produk akhir adalah generasi komputer kode oftware untuk apilkasi atau penyusunan spesifikasi fungsional untuk membantu sebuah perangkat lunak komputer untuk membuat keputusan
+
+### Proses Bisnis dan Pemodelan Data ####
