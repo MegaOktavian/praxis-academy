@@ -38,3 +38,18 @@ Berdasarkan tujuannya, software dibagi menjadi :
      Merupakan program komputer yang dirancang untuk membatu pengguna dalam pemeliharaan dan perawatan komputer mereka.
 3. Malicious software or malware
    Software yang dikembangkan untuk membahayakandan mengganggu komputer.
+
+#### Arsitekture software ####
+Arsitekture Software dibagi menjadi 3 lapisan :
+1. Platform software
+   Platform termasuk firmware, device drive, sebuah sistem operasi dan antarmuka pengguna grafis yang secara total memungkinkan pengguna untuk berinteraksi dengan komputer dan peripheral-nya. 
+2. Application Software
+   Aplikasi biasanya merupakan program independen dan sistem informasi, meskipun seringkali dirancang untuk platform tertentu.
+3. User-written Software
+
+### Perbedaan Informatics dengan Komputer Science ###
+Informatics adalah cabang dari rekayasa informasi yang melibatkan praktik pengolahan informasi dan rekayasa sistem informasi dan sebagian bidang akademi itu adalah bentuk ilmu informasi yang diterapkan. Bidang ini mempertimbangkan interaksi antara manusia dan informasi  informasi di samping pembangunan antarmuka, organisasi, teknologi dan sistem.
+
+Computer Science adalah studi tentang teori, eksperimen, dan teknik yang membentuk dasar untuk desain dan penggunaan komputer. Ini adalah pendekatan ilmiah dan praktis untuk komputasi dan aplikasinya dan studi sistematis kelayakan, struktur, ekspresi, dan mekanisasi dari prosedur metodis (atau algoritma) yang mendasari akuisisi, representasi, pemrosesan, penyimpanan, komunikasi, dan akses untuk informasi.
+
+### Software Development ###
