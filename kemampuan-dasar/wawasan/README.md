@@ -126,3 +126,9 @@ Agile Software Development terdiri dari beberapa pendekatan untuk perangkat luna
 10. Kesederhanaan — seni memaksimalkan jumlah pekerjaan yang tidak dilakukan — adalah penting
 11. Arsitektur, persyaratan, dan desain terbaik muncul dari tim yang mengatur diri sendiri
 12. Secara teratur, tim merenungkan bagaimana menjadi lebih efektif, dan menyesuaikannya
+
+### Scrum ###
+Scrum adalah kerangka proses tangkas untuk mengelola pekerjaan pengetahuan yang kompleks, dengan penekanan awal pada pengembangan perangkat lunak , meskipun telah digunakan di bidang lain dan perlahan-lahan mulai dieksplorasi untuk pekerjaan kompleks lainnya, penelitian dan teknologi canggih. Ini dirancang untuk tim yang beranggotakan sepuluh atau lebih sedikit, yang membagi pekerjaan mereka menjadi tujuan yang dapat diselesaikan dalam iterasi timeboxed, disebut sprint.
+
+### XP (External Programming) ###
+Extreme programming ( XP ) adalah metodologi pengembangan perangkat lunak yang dimaksudkan untuk meningkatkan kualitas perangkat lunak dan responsif terhadap perubahan kebutuhan pelanggan. Elemen-elemen lain dari pemrograman ekstrem meliputi: pemrograman berpasangan atau melakukan tinjauan kode yang luas , pengujian unit semua kode, menghindari pemrograman fitur sampai mereka benar-benar dibutuhkan , struktur manajemen yang datar, kesederhanaan dan kejelasan kode, mengharapkan perubahan dalam persyaratan pelanggan seiring waktu berlalu dan masalahnya lebih dipahami, dan komunikasi sering dengan pelanggan dan di antara programmer.
