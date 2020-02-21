@@ -24,3 +24,17 @@ Software adalah kumpulan data atau intruksi komputer yang memberi tahu komputer 
 
 Diagram diatas menunjukkan bagaimana pengguna berinteraksi dengan perangkat lunak (software) aplikasi pada desktop komputer biasa. Lapisan perangkat lunak aplikasi (software) antarmuka dengan sistem operasi, yang pada gilirannya berkomunikasi dengan perangkat keras (hardware). Panah menunjukkan aliran informasi.
 
+##### Jenis atau domain pengguna pada software #####
+Berdasarkan tujuannya, software dibagi menjadi :
+1. Application Software
+   Software yang menggunakan sistem komputer untuk melakukan fungsi - fungsi khusus atau menyediakan fungsi hiburan diluar operasi dasar komputer itu sendiri.
+2. Software System
+   Perangkat lunak untuk mengelola perilaku hardware komputer untuk menyediakan fungsionalitas dasar yang diperlukan oleh pengguna atau agar software lain dapat bekerja dengan baik. Software System terdiri atas :
+   - Sistem Operasi
+     Merupakan kumpulan pentig software yang mengelola sumber daya dan menyediakan layanan umum untuk software lain yang menjalankannya.
+   - Device Drive
+     Mengoperasikan atau mengontrol tipe perangkat tertentu yang terpasang pada komputer.
+   - Utilitas
+     Merupakan program komputer yang dirancang untuk membatu pengguna dalam pemeliharaan dan perawatan komputer mereka.
+3. Malicious software or malware
+   Software yang dikembangkan untuk membahayakandan mengganggu komputer.
