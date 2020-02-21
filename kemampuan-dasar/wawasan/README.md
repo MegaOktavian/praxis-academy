@@ -97,4 +97,32 @@ View Model adalah kerangaka kerja yang memberikan sudut pandang pada sistem dan 
 1. Sebuah model bisnis menggambarkan fungsi yang terkait dengan proses bisnis yang dimodelkan dan organisasi yang melakukan fungsi - fungsi ini.
 2. Sebuah model data menyediakan rincian informasi yang akan disimpan dan penggunaan primer ketika produk akhir adalah generasi komputer kode oftware untuk apilkasi atau penyusunan spesifikasi fungsional untuk membantu sebuah perangkat lunak komputer untuk membuat keputusan
 
-### Proses Bisnis dan Pemodelan Data ####
+### Software Engineering ####
+    "Software Engineering adalah cabang ilmu komputer yang berkaitan dengan desain, implementasi, dan pemeliharaan program komputer yang kompleks"_Merriam Webster
+#### Bidang ####
+1. Softare Requirements : elisitasi, analisis, spesifikasi, dan validasi persyaratan untuk perangkat lunak.
+2. Software Design : proses arsitektur, komponen, antarmuka, dan karakteristik lain dari suatu sistem atau komponen
+3. Software Development : definisi implementasi, penilaian, pengukran, manajemen, perubahan dan perbaikan dari SDLC perangkat lunak itu sendiri.
+4. Software Testing : Penyelidikan teknik empiris yang dilakukan untuk memberikan para pemangku kepentingan informasi tentang kualitas produk atau layanan yang diuji dengan pendekatan seperti pengujian unit dan pengujianintegrasi
+5. Maintenance Software : mengacu pada kegiatan yang diperlukan untuk menghemat biaya setelah mengirim produk perangkat lunak
+
+### Agile Software Development ###
+Agile Software Development terdiri dari beberapa pendekatan untuk perangkat lunak dimana persyaratan dan solusi berkembang melalui upaya kolaboratif dari tim yang self-orgenazing dan cross-functional. Nilai Agile Software Development sebagai berikut :
+* Individu dan interaksi atas proses dan alat
+* Bekerjanya software melalui dokumentasi yang kompherensif
+* Kolaborasi pelanggan atas negosiasi kontrak
+* Menanggapi perubahan setelah mengikuti rencana
+
+#### 12 Prinsip Agile Software Development ####
+1. Kepuasan pelanggan dengan pengiriman awal dan berkelanjutan dari perangkat lunak yang berharga.
+2. Selamat datang perubahan persyaratan, bahkan dalam pengembangan akhir.
+3. Sering-seringlah mengirimkan perangkat lunak yang berfungsi (minggu daripada bulan)
+4. Tutup, kerja sama harian antara pelaku bisnis dan pengembang
+5. Proyek dibangun di sekitar individu yang termotivasi, yang harus dipercaya
+6. Percakapan tatap muka adalah bentuk komunikasi terbaik (co-location)
+7. Perangkat lunak yang berfungsi adalah ukuran utama dari kemajuan
+8. Pembangunan berkelanjutan, mampu mempertahankan kecepatan konstan
+9. Perhatian terus menerus terhadap keunggulan teknis dan desain yang baik
+10. Kesederhanaan — seni memaksimalkan jumlah pekerjaan yang tidak dilakukan — adalah penting
+11. Arsitektur, persyaratan, dan desain terbaik muncul dari tim yang mengatur diri sendiri
+12. Secara teratur, tim merenungkan bagaimana menjadi lebih efektif, dan menyesuaikannya
