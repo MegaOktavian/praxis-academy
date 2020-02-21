@@ -115,3 +115,20 @@
    
      ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar06.PNG)
      
+     Hasil Push :
+     
+     ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar07.PNG)
+     
+   #### Riwayat Commit ####
+   Bisa dilihat pada Manage Topics
+   
+   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar08.PNG)
+   
+   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar09.PNG)
+   
+   #### Membuat branch baru ####
+   Dapat menggunakan perintah git checkout -b nunung
+   
+   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar10.PNG)
+   
+   ![gambar 2](https://github.com/MegaOktavian/rhymes/blob/master/Gambar2/Gambar11.PNG)
