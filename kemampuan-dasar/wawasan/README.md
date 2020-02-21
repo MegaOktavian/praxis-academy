@@ -132,3 +132,24 @@ Scrum adalah kerangka proses tangkas untuk mengelola pekerjaan pengetahuan yang 
 
 ### XP (External Programming) ###
 Extreme programming ( XP ) adalah metodologi pengembangan perangkat lunak yang dimaksudkan untuk meningkatkan kualitas perangkat lunak dan responsif terhadap perubahan kebutuhan pelanggan. Elemen-elemen lain dari pemrograman ekstrem meliputi: pemrograman berpasangan atau melakukan tinjauan kode yang luas , pengujian unit semua kode, menghindari pemrograman fitur sampai mereka benar-benar dibutuhkan , struktur manajemen yang datar, kesederhanaan dan kejelasan kode, mengharapkan perubahan dalam persyaratan pelanggan seiring waktu berlalu dan masalahnya lebih dipahami, dan komunikasi sering dengan pelanggan dan di antara programmer.
+
+#### Konsep ####
+1. Sasaran
+2. Kegiatan
+   * Pengodean
+   * Menguji
+   * Mendengarkan
+   * Merancang
+3. Nilai - nilai
+   * Komunikasi
+   * Kesederhanaan
+   * Umpan Balik
+   * Kesederhanaan
+   * Hormat
+4. Aturan
+   * Coding
+   * Pengujian
+5. Prinsip
+   * Umpan Balik
+   * Dengan asumsi kesederhanaan 
+   * Merangkul perubahan
