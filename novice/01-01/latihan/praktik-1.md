@@ -7,6 +7,7 @@
    ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%201/Screenshot%20from%202020-03-02%2003-17-19.png)
    
 2. Pilih installer miniconda
+
    ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%201/Screenshot%20from%202020-03-02%2003-17-34.png)
    
 3. Pilih versi python yang ingin diinstall
