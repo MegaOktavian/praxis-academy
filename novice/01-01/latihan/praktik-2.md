@@ -42,25 +42,55 @@
 
    ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-12-16.png)
    
-   ![gambar 0101]()
+6. Klik Ctrl+Shif+P pilih Python : Select Interprener. Pilih python versi 3.8
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-12-22.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-12-54.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-13-38.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-14-02.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-14-02.png)
    
-   ![gambar 0101]()
+7. Buat file baru bernama hello.py, kemudian jalankan menggunakan terminal
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-14-02.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-16-40.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-16-51.png)
+   
+8. Menjalankan Debug
+  -Klik F9 di salah satu baris
+   
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-20-54.png)
+   
+  -Klik F5, pilih Python File
+   
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-21-12.png)
+   
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-21-32.png)
+  
+  - Ketikkan perintah berikut
+    msg
+    msg.capitalize()
+    msg.split()
+                        
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-21-32.png)
+   
+9. Buat file baru bernama standartdplot.py, kemudian jalankan
+
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-24-04.png)
+   
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-24-36.png)
+   
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-25-17.png)
+   
+  -Klik Ctrl+Shift+P, kemudian pilih Python : Current File
+  
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-27-42.png)
    
    ![gambar 0101]()
    
