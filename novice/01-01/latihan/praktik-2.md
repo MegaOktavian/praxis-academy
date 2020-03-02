@@ -92,16 +92,20 @@
   
    ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-27-42.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-27-48.png)
    
-   ![gambar 0101]()
+  -Install ibraries matplotlib menggunakan terminal 
+  
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-27-48.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-36-38.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-41-25.png)
+  
+  - Klik Ctrl+Shift+P, kemudian pilih Python : Select Interprener
+  
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-42-48.png)
    
-   ![gambar 0101]()
+   ![gambar 0101](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-01/latihan%202/Screenshot%20from%202020-03-02%2011-50-45.png)
    
-   ![gambar 0101]()
-   
-   ![gambar 0101]()
+   Dari gambar diatas seharusnya muncul gambar berupa grafik, namun seperti yang terlihat di atas. Modul matplotlib tidak ditemukan.
