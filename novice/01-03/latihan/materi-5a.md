@@ -36,52 +36,56 @@
     Modul sys juka memiliki atribut stdin, stdout, dan stderr.
 
     stderr digunakan untuk memnunculkan peringatan dan pesan kesalahan untuk membuatnya terlihat bahkan setelah stdout telah di redirect.
+    
+ ![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-50-21.png)
 
 ### String Pattern Matching
 
     Modul re menyediakan alat ekspresi reguler untuk pengolahan string yang canggih.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-50-21.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-54-06.png)
+
 
 ## Matematik
 
     Modul math memberikan akses yang mendasari fungsi C library untuk floating point math.
      
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-54-06.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-56-34.png)
 
     Modul random menyediakan alat untuk memberikan pilihan acak.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-56-34.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-57-38.png)
 
     Modul statistic  untuk menghitung sifat statistik dasar (mean, median, varian, dall) dari data numerik.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-57-38.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-58-55.png)
+
 
 ### Internet Access
 
     Modul urllib.request untuk mengambil data dari URL dan smtplib untuk mengirim surat.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-58-55.png)
-
 ![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-00-34.png)
+
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-13-50.png)
 
 ### Tanggal dan Waktu
 
     Modul datetime digunakan untuk memanipulasi tanggal dan waktu secara sederhana dan kompleks.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-13-50.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-34-17.png)
 
 ### Data Compression
 
     Pengarsipan modul : zlib, gzip, bz2, lzma, dan tarfile.
 
-![0103]()
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-35-42.png)
 
 ### Pengukuran Kinerja
 
     Modul timeit cepat menunjukkan keunggulan kinerja yang sederhana.
 
-![0103]()
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-36-06.png)
 
     Module profite dan pstats menyediakan alat untuk mengidentifikasi bagian waktu krisis dalam blok kode yang lebih besar.
 
@@ -89,7 +93,7 @@
 
     Modul doctest menyediakan alat untuk memindai modul dan memvalidasi tes tertanam dalam docstrings program ini.
 
-![0103]()
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-42-45.png)
 
 ### Batteries Included
 
