@@ -37,8 +37,6 @@
 
     stderr digunakan untuk memnunculkan peringatan dan pesan kesalahan untuk membuatnya terlihat bahkan setelah stdout telah di redirect.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-41-10.png)
-
 ### String Pattern Matching
 
     Modul re menyediakan alat ekspresi reguler untuk pengolahan string yang canggih.
