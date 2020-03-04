@@ -53,23 +53,25 @@
 
 ![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-11-52.png)
 
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-12-05.png)
+
 ### Tools untuk Berkerja dengan List
 
     Modul array menyediakan array() objek seperti list yang menyimpan hanya homogen data dan menyimpannya.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-12-05.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-12-55.png)
 
     Modul collection menyediakan deque() objek seperti daftar dengan menambahkan lebih cepat dan muncul dari sisi kiri namun pencarian lebih lambat ditengah.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-12-55.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-13-49.png)
 
     Modul bisect berfungsi untuk memanipulasi daftar yang diurutkan.
 
-![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-13-49.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-15-27.png)
 
     Modul heapq menyediakan fungsi untuk melaksanakan tumpukan berdasarkan daftar reguler.
 
-![0103]()
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-15-44.png)
 
 ### Decimal Floating Point Arithmetic 
 
@@ -81,4 +83,4 @@ Kelas ini sangat membantu untuk :
 * Kontrol atas pembulatan untuk memenugi persyaratan hukum atau peraturan
 * Pelacakan tempat desimal yang signifikan
 
-![0103]()
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205b/Screenshot%20from%202020-03-04%2003-16-11.png)
