@@ -7,13 +7,13 @@ Objek juga memiliki fungsionalitas dengan menggunakan fungsi yang dimiliki class
 
 ### Class
 
-gambar 1
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2004-15-46.png)
 
 Membuat class baru diikuti blok pernyataan yang membentuk lekukan kelas. Blok ini kosong yang diindikasi dengan pass statement. Kemudian membuat objek atau instance menggunakan nama kelas diikuti (). Kemudian mengkonfirmasi jenis variable dengan mencetaknya.
 
 ### Method
 
-gambar 2
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2004-15-58.png)
 
 Disini method say_hi tidak mengambil parameter tetapi masih memiliki self definisi fungsi.
 
@@ -21,7 +21,7 @@ Disini method say_hi tidak mengambil parameter tetapi masih memiliki self defini
 
 Method __init__ dijalankan segera sebagai objek dari suatu kelas adalah initialization (yaitu dibuat).
 
-gambar 3
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2004-16-06.png)
 
 __init__ metode mengambil parameter name (bersama dengan self). Dibuat juga fields baru bernama name.Disini terdapat dua variabel berbeda walaupun memiliki nama yang sama yaitu name. self.name berarti ada sesuatu yang disebut "name" yang merupakan bagian dari objek yang disebut "self" dan yang "name" yang satunya adalah variabel lokal. Kemudian membuat instance baru bernama p dari kelas Person, diikuti oleh argumen dalam tanda kurung. Kemudian menggunakan self_name yang ditunjukan dengan say_hi.
 
@@ -31,7 +31,7 @@ __init__ metode mengambil parameter name (bersama dengan self). Dibuat juga fiel
 
     Variabel objek dimiliki oleh setiap individu / instance dari kelas. Dalam hal ini setiap objek memiliki salinan bidangnya sendiri yaitu mereka tidak dibagikan dan tidak terkait dengan bidang apapun dengan nama yang sama dalam contoh yang berbeda.
 
-gambar 4
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2004-40-00.png)
 
 population  milik kelas Robot yang merupakan variabel kelas. variabel name milik objek dan karenanya variabel name merupakan variabel objek. variabel kelas population sebagai Robot.population dan bukan sebagai self.population. Variabel objek name menggunakan notasi self.name dalam metode objek tersebut.
 
@@ -47,7 +47,7 @@ __init__ digunakan untuk menginisialisasi Robot instance dengan nama. Dalam meto
 
 Salah satu keuntungan utama OOP adalah penggunaan kembali kode dan salah satu cara ini dicapai melalui mekanisme pewarisan (Inheritance). Inheritance dapat dibayangkan sebagai penerapan hubungan type dan subtype antar kelas.
 
-gambar 5
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2004-52-38.png)
 
 Untuk menggunakan pewarisan, tentukan nama kelas dasar dalam sebuah tuple mengikuti nama kelas dalam definisi kelas. Metode __init__ dari kelas dasar secara eksplisit disebut menggunakan self variabel sehingga dapat dianalisi bagian kelas dasar dari sebuah instance dalam subkelas. Python tidak secara otomatis memanggil konstruktor dari kelas dasar SchoolMember, tetapi harus secara eksplisit menyebutnya sendiri. Sebaliknya, jika belum mendefinisikan metode __init__ dalam sebuah subkelas, Python akan memanggil konstruktor dari kelas dasar secara otomatis.
 
@@ -75,7 +75,7 @@ Ada 3 cakupan bersarang yang namespacenya dapat diakses :
 
 Berikut adalah contoh yang menunjukkan cara mereferensikan cakupan dan namespace yang berbeda, dan bagaimana global dan nonlocal mempengaruhi pengikan variabel
 
-gambar 1
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2009-02-40.png)
 
 Sintak definisi class sebagai berikut :
 
@@ -120,7 +120,7 @@ Ketika sebuah kelas mendefinisikan sebuah metode __init__(), instantiasi kelas s
 
 Metode __init__() mungkin memiliki argumen untuk fleksibilitas yang lebih besar.
 
-gambar 2
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2014-43-30.png)
 
 ### Instance Object
 
@@ -161,21 +161,21 @@ Memanggil metode dengan daftar argumen n sama dengan memanggil fungsi yang sesua
 
     Variabel kelas adalah untuk atribut dan metode yang dibagikan oleh semua instance kelas.
 
-gambar 3
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2015-20-13.png)
 
 Berbagi data dapat memiliki efek yang mengejutkan dengan melibatkan objek yang dapat berubah seperti list dan dictionary. Misalnya daftar trick dalam kode berikut tidak boleh digunakan sebagai variabel kelas karena hanya satu daftar yang akan dibagikan oleh semua instance Dog : 
 
-gambar 4
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2015-33-47.png)
 
 Desain kelas yang benar menggunakan variabel instan sebagai gantinya :
 
-gambar 5
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2015-38-30.png.png)
 
 ### Random Remarks
 
 Jika nama atribut yang sama muncul dikedua instance dan dikelas, maka pencarian atribut memproritaskan instance :
 
-gambar 6
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2016-06-01.png)
 
 Objek fungsi apa pun yang merupakan atribut kelas menentukan metode untuk instance dari kelas itu. Tidak perlu bahwa definisi fungsi secara teks tertutup dalam definisi kelas: menetapkan objek fungsi ke variabel lokal di kelas juga ok. Sebagai contoh:
 
@@ -294,7 +294,7 @@ Pernyataan for :
 
 Pernyataan for memanggil iter() sebagai objek penampung. Fungsi return sebuah iterator object yang mendefinisikan metode __next__() yang mengakses elemen dalam wadah satu per satu. Ketika tidak ada lagi elemen, __next __ () memunculkan eksepsi StopIteration yang memberi tahu for loop untuk mengakhiri. Dapat memanggil metode __next __ () menggunakan fungsi built-in next (); contoh ini menunjukkan cara kerjanya:
 
-gambar 7
+![0103]()
 
 metode __iter __ () yang mengembalikan objek dengan metode __next __ (). Jika kelas mendefinisikan __next __ (), maka __iter __ () dapat mengembalikan diri:
 
@@ -325,4 +325,4 @@ Generator adalah alat sederhana dan kuat untuk membuat iterator. Mereka ditulis 
 
 Beberapa generator sederhana dapat dikodekan secara ringkas sebagai ekspresi menggunakan sintaksis yang mirip dengan pemahaman daftar tetapi dengan tanda kurung alih-alih tanda kurung siku. Contoh :
 
-gambar 8
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/latihan%202/Screenshot%20from%202020-03-04%2016-17-42.png)
