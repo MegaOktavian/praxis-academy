@@ -3,7 +3,7 @@
 
     Modul os menyediakan puluhan fungsi untuk berinteraksi dengan sistem operasi
 
-gambar 1
+![0102](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-22-24.png)
 
     Fungsi dir () dan help () berguna sebagai alat bantu interaktif untuk bekerja dengan modul besar seperti os:
 
