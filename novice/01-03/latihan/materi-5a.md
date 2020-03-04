@@ -3,31 +3,33 @@
 
     Modul os menyediakan puluhan fungsi untuk berinteraksi dengan sistem operasi
 
-![0102](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-22-24.png)
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-22-24.png)
+
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-23-51.png)
 
     Fungsi dir () dan help () berguna sebagai alat bantu interaktif untuk bekerja dengan modul besar seperti os:
 
-gambar 2
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-26-50.png)
 
-gambar 3
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-27-11.png)
 
     Untuk tugas manajemen file dan direktori harian, modul shutil menyediakan antarmuka level yang lebih tinggi yang lebih mudah digunakan :
 
-gambar 4
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-30-11.png)
 
 ### File Wildcards
 
     Modul glob fungsi untuk membuat daftar file dari pencarian wildcard direktori :
 
-gambar 5
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-32-55.png)
 
 ### Argumen Command Line
 
-gambar 6
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-36-51.png)
 
     Modul argparse menyediakan mekanisme untuk memproses argumen command line.
 
-gambar 7
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-41-10.png)
 
 ### Pengalihan Error Output dan Pengakhiran Program
 
@@ -35,53 +37,53 @@ gambar 7
 
     stderr digunakan untuk memnunculkan peringatan dan pesan kesalahan untuk membuatnya terlihat bahkan setelah stdout telah di redirect.
 
-gambar 8
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-41-10.png)
 
 ### String Pattern Matching
 
     Modul re menyediakan alat ekspresi reguler untuk pengolahan string yang canggih.
 
-gambar 9
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-50-21.png)
 
 ## Matematik
 
     Modul math memberikan akses yang mendasari fungsi C library untuk floating point math.
      
-gambar 10
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-03%2023-54-06.png)
 
     Modul random menyediakan alat untuk memberikan pilihan acak.
 
-gambar 11
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-56-34.png)
 
     Modul statistic  untuk menghitung sifat statistik dasar (mean, median, varian, dall) dari data numerik.
 
-gambar 12
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-57-38.png)
 
 ### Internet Access
 
     Modul urllib.request untuk mengambil data dari URL dan smtplib untuk mengirim surat.
 
-gambar 13
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2000-58-55.png)
 
-gambar 14
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-00-34.png)
 
 ### Tanggal dan Waktu
 
     Modul datetime digunakan untuk memanipulasi tanggal dan waktu secara sederhana dan kompleks.
 
-gambar 15
+![0103](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-03/materi%205a/Screenshot%20from%202020-03-04%2001-13-50.png)
 
 ### Data Compression
 
     Pengarsipan modul : zlib, gzip, bz2, lzma, dan tarfile.
 
-gambar 16
+![0103]()
 
 ### Pengukuran Kinerja
 
     Modul timeit cepat menunjukkan keunggulan kinerja yang sederhana.
 
-gambar 17
+![0103]()
 
     Module profite dan pstats menyediakan alat untuk mengidentifikasi bagian waktu krisis dalam blok kode yang lebih besar.
 
@@ -89,7 +91,7 @@ gambar 17
 
     Modul doctest menyediakan alat untuk memindai modul dan memvalidasi tes tertanam dalam docstrings program ini.
 
-gambar 18
+![0103]()
 
 ### Batteries Included
 
