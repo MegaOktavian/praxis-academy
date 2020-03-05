@@ -4,7 +4,7 @@
 
 Dengan Inheritance, satu atau lebih kelas turunan dapat mewarisi atribut dan metode dari kelas dasar. Ini mengurangi duplikasi, dan berarti bahwa setiap perubahan yang dilakukan pada kelas dasar akan secara otomatis diterjemahkan ke kelas turunan. Sebagai ulasan:
 
-![0104]()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/latihan%201/Screenshot%20from%202020-03-05%2001-45-34.png)
 
 kelas turunan tidak memerlukan metode __init__ mereka sendiri karena kelas dasar __init__ dipanggil secara otomatis. Namun, jika mendefinisikan __init__ di kelas turunan, ini akan menimpa basis :
 
@@ -19,19 +19,19 @@ kelas turunan tidak memerlukan metode __init__ mereka sendiri karena kelas dasar
             self.legs = legs
             self.hibernate = hibernate
 
-![0104]()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/latihan%201/Screenshot%20from%202020-03-05%2001-50-53.png)
 
 ### Multiple Inheritance
 
 Terkadang masuk akal bagi kelas yang diturunkan untuk mewarisi kualitas dari dua atau lebih kelas dasar. Python memungkinkan untuk ini dengan pewarisan berganda.
 
-![0104]()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/latihan%201/Screenshot%20from%202020-03-05%2003-04-24.png)
 
 Kelas turunan dari objek Bensin dan Listrik :
 
-![0104]()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/latihan%201/Screenshot%20from%202020-03-05%2003-16-18.png)
 
-![0104]()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/latihan%201/Screenshot%20from%202020-03-05%2003-16-47.png)
 
 ### Mengapa memakai self ?
 
@@ -68,11 +68,11 @@ Pertimbangkan yang berikut ini:
 
 Secara skematis, hubungannya terlihat seperti ini :
 
-![0104]()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/latihan%201/Screenshot%20from%202020-03-05%2003-40-36.png)
 
 Di sini num adalah atribut kelas yang dimiliki oleh keempat kelas.  Jika D.num dipanggil :
 
-![0104]()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/latihan%201/Screenshot%20from%202020-03-05%2003-43-36.png)
 
 ### super()
 
@@ -103,4 +103,4 @@ Dalam bentuk yang lebih dinamis, dengan banyak pewarisan seperti "diagram berlia
         def truth(self):
             return 'Some numbers are even'
 
-![0104]()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/latihan%201/Screenshot%20from%202020-03-05%2004-01-30.png)
