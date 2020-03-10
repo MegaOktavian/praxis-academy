@@ -1,0 +1,4 @@
+action: py27, msg: envreport
+cwd: /home/mega/Documents/Global/praxis-academy/novice/02-02/latihan/projek/tox
+cmd: /home/mega/Documents/Global/praxis-academy/novice/02-02/latihan/projek/tox/.tox/py27/bin/python -m pip freeze
+DEPRECATION: Python 2.7 reached the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 is no longer maintained. A future version of pip will drop support for Python 2.7. More details about Python 2 support in pip, can be found at https://pip.pypa.io/en/latest/development/release-process/#python-2-support

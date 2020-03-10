@@ -1,0 +1,3 @@
+action: py36, msg: envreport
+cwd: /home/mega/Documents/Global/praxis-academy/novice/02-02/latihan/projek/tox
+cmd: /home/mega/Documents/Global/praxis-academy/novice/02-02/latihan/projek/tox/.tox/py36/bin/python -m pip freeze

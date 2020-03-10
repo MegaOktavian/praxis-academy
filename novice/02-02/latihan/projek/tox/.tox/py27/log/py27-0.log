@@ -1,0 +1,7 @@
+action: py27, msg: getenv
+cwd: /home/mega/Documents/Global/praxis-academy/novice/02-02/latihan/projek/tox/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python2.7 py27
+created virtual environment CPython2.7.17.final.0-64 in 1196ms
+  creator CPython2Posix(dest=/home/mega/Documents/Global/praxis-academy/novice/02-02/latihan/projek/tox/.tox/py27, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/mega/.local/share/virtualenv/seed-app-data/v1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator

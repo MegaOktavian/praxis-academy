@@ -1,0 +1,7 @@
+action: py36, msg: getenv
+cwd: /home/mega/Documents/Global/praxis-academy/novice/02-02/latihan/projek/tox/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 py36
+created virtual environment CPython3.6.9.final.0-64 in 516ms
+  creator CPython3Posix(dest=/home/mega/Documents/Global/praxis-academy/novice/02-02/latihan/projek/tox/.tox/py36, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, via=copy, app_data_dir=/home/mega/.local/share/virtualenv/seed-app-data/v1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
