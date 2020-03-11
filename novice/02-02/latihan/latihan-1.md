@@ -22,21 +22,21 @@ Contoh : mengecek nilai sum() dari angka (1, 2, 3) sama dengan 6 :
 
 Contoh diatas tidak akan menampilkan apapun karena nilainya benar.
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2000-15-23.png)
 
 Contoh nilai sum bernilai error karena tidak sama dengan 6
 
     assert sum([1, 1, 1]) == 6, "Should be 6"
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2000-16-30.png)
 
 Menambahkan niali baru dan menjalankannya menggunakan terminal :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2000-21-38.png)
 
 Dengan menggunakan python, sum() menerima setiap iterable sebagai argumen pertama. Berikut test dengan tuple :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2000-24-42.png)
 
 Jika file test_sum_2.py dijalankan, maka akan terjadi kesalahan karena sum() dari [1,2,2] adalah 5 bukan 6.
 
@@ -56,17 +56,17 @@ o Ubah fungsi tes menjadi metode dengan menambahkan diri sebagai argumen pertama
 o Ubah pernyataan untuk menggunakan metode self.assertEqual () pada kelas TestCase
 o Ubah titik entri baris perintah untuk memanggil unittest.main ()
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2000-37-24.png)
 
 ### nose
 
 nose kompetibel dengan semua tes yang ditulis menggunakan unittest framework dan dapat digunakan sebagai pengganti drop-in untuk  unittest test runner. Untuk memulainya install terlebih dahulu :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2000-46-37.png)
 
 Cobalah execute pada file yang telah dibuat :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2001-53-29.png)
 
 ### pytest
 
@@ -91,7 +91,7 @@ Penulisan TestSum dengan pytest akan seperti ini :
 Buat projek baru dan didalamnya buat folder baru bernama my_sum. Didalam folder my_sum, buatlah file kosong bernama __init__.py. File tersebut dapat diimport sebagai modul dari direktori induk.
 Folder akan terlihat :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2001-57-14.png)
 
 Masukkan script berikut ini kedalam file __init__.py
 
@@ -103,7 +103,7 @@ Masukkan script berikut ini kedalam file __init__.py
 
 buatlah file yang bernama test.py yang akan berisi test case. Tempatkan file ini di dalam folder project, sehingga susunanya menjadi :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2002-15-19.png)
 
 Saat menambahkan lebih banyak test, file tunggal akan menjadi berantakan dan sulit untuk dipertahankan. Buatlah folder bernama tests/ dan membagi file test menjadi beberapa bagian.
 
@@ -143,7 +143,7 @@ Ada beberapa praktik seputar cara menulis pernyataan:
 
 unittest hadir dengan banyak metode untuk menegaskan nilai, tipe, dan keberadaan variabel. Berikut adalah beberapa metode yang paling umum digunakan :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2000-45-02.png)
 
 Putuskan side effect sebelum melakukan pengujian. side effect merupakan bagian paling penting dari pengujian.
 
@@ -151,19 +151,19 @@ Jalankan file test.py menggunakan terminal menggunakan perintah :
 
     python -m unittest test
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2002-27-52.png)
 
 Dapat memberikan opsi tambahan untuk mengubah output. Salah satunya adalah -v untuk berbose :
 
     python -m unittest -v test
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2002-31-31.png)
 
 Dapat membuat permintaan auto-discovery menggunakan :
 
     python -m unittest discover
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2002-34-09.png)
 
 Ini akan mencari direktori saat ini untuk setiap file yang dinamai test*.py.
 
@@ -171,7 +171,7 @@ Dapat memberikan nama direktori sebagai gantinya dengan -s flag dan nama direkto
 
     python -m unittest discover -s test
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2002-58-00.png)
 
 unittest akan menjalankan semua tes dalam satu rencana tes dan memberikan hasilnya.
 
@@ -212,7 +212,7 @@ from my_sum import sum
 
 Jika Anda menjalankan tes lagi dengan python -m unittest test, output :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2009-12-48.png)
 
 Di output, didadatkan informasi berikut:
 1. Baris pertama menunjukkan hasil eksekusi semua tes, satu gagal (F) dan satu berlalu (.).
@@ -326,7 +326,7 @@ Masing-masing jenis tes integrasi ini dapat ditulis dengan cara yang sama sepert
 
 Cara sederhana untukmemisahkan tes unit dan integrasi adalah dengan meletakkan folder yang berbeda :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2013-58-01.png)
 
 Direktori flag yang ditentukan, -s, dapat ditambahkan ke unittest discover dengan jalur yang berisi tes :
 
@@ -341,7 +341,7 @@ Teknik yang baik untuk digunakan adalah menyimpan data uji dalam folder di dalam
 
 Berikut adalah contoh struktur itu jika data terdiri dari file JSON :
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2014-02-59.png)
 
 Di dalam test case Anda, Anda bisa menggunakan metode .setUp () untuk memuat data uji dari file fixture di jalur yang dikenal dan melakukan banyak tes terhadap data tes itu. Ingat Anda dapat memiliki beberapa kasus uji dalam satu file Python, dan penemuan yang paling tidak aktif akan menjalankan keduanya. Anda dapat memiliki satu test case untuk setiap set data pengujian :
 
@@ -386,11 +386,11 @@ Menginstall tox gunakan perintah :
 
     pip install tox
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2016-26-18.png)
 
 Alih-alih harus mempelajari sintaks konfigurasi Tox, dapat memulai dengan menjalankan aplikasi quickstart:
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2016-44-05.png)
 
 Tox dikonfigurasi melalui file konfigurasi di direktori proyek Anda. File konfigurasi Tox berisi yang berikut:
 1. Perintah untuk menjalankan untuk menjalankan tes
@@ -422,13 +422,13 @@ Jalankan Tox, itu akan membuat dua lingkungan baru. Satu untuk python 2.7 dan 3.
 
     python -m unittest
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2016-50-37.png)
 
 Menjalankan proses ini dengan memanggil Tox :
 
     tox
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2016-51-17.png)
 
 Tox akan menampilkan hasil tes terhadap masing-masing lingkungan. Saat pertama kali dijalankan, Tox membutuhkan sedikit waktu untuk membuat lingkungan virtual, tetapi begitu sudah, eksekusi kedua akan jauh lebih cepat.
 
@@ -479,13 +479,13 @@ Menginstall flake8 menggunakan perintah :
 
     pip install flake8
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar naive/02-02/latihan/Screenshot from 2020-03-10 17-12-28.png)
 
 Kemudian jalankan file test.py menggunakan flake8 :
 
     flake8 test.py
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2017-14-50.png)
 
 flake8 dapat dikonfigurasi pada baris perintah atau di dalam file konfigurasi di proyek. Jika ingin mengabaikan aturan tertentu, seperti E305 yang ditunjukkan di atas,dapat mengaturnya dalam konfigurasi. flake8 akan memeriksa file .flake8 di folder proyek atau file setup.cfg. Jika memutuskan untuk menggunakan Tox, dapat meletakkan bagian konfigurasi flake8 di dalam tox.ini.
 
@@ -517,13 +517,13 @@ menginstal black menggunakan perintah
 
     pip install black
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2017-24-01.png)
 
 Menjalankan file menggunakan black :
 
     black test.py
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2017-28-08.png)
 
 Penggunaan linting pada fluake8 :
 
@@ -546,7 +546,7 @@ Menginstal pytest-benchmark :
 
     pip install pytest-benchmark
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2017-40-07.png)
 
 Menambahkan tes yang menggunakan fixture dan melewati callable yang akan dieksekusi :
 
@@ -559,10 +559,10 @@ Menginstall bandit :
 
     pip install bandit
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2017-48-08.png)
 
 Kemudian berikan nama modul aplikasi denan -r flug :
 
     bandit -r my_sum
 
-![0202]()
+![0202](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-02/latihan/Screenshot%20from%202020-03-10%2017-49-42.png)
