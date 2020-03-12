@@ -36,3 +36,65 @@ o Google Guice (Java)
 o Dagger (Java dan Android)
 o Castle Windsor (.NET)
 o Unity (.NET)
+
+Contoh :
+
+Jika memiliki kelas Employee dan karyawan memiliki Address, maka dpat menentukan kelas Employee sebagai berikut :
+
+    class Employee {
+        private Address address;
+
+        // constructor 
+        public Employee( Address newAddress ) {
+            this.address = newAddress;
+        }
+
+        public Address getAddress() {
+        return this.address;
+        }
+        public void setAddress( Address newAddress ) {
+            this.address = newAddress;
+        }
+    }
+
+Kode ini menunjukkan kepunyaan antara employee dan address. Sekarang menciptakan hubungan kepemilikan di antara mereka :
+
+    Address someAddress = ....
+    Employee oscar = new Employee( someAddress ); 
+
+Maslaah utama muncul ketika menguji satu objek tertentu, diperlukan membuat instance dan instance objek lain untuk melakukan itu. Untu mengundari itu, dapat menggunakan konstruktor :
+
+    public Employee(){
+    }
+
+Menggunakan konstrunktor no args. Kemudian dapat mengatur alamat kapanpun :
+
+    Address someAddress = ....
+    Employee oscar = new Employee();
+    oscar.setAddress( someAddress ); 
+
+Jika dimiliki beberapa atribut atau jika objek sulit dibuat, tambahkan atribut Depatement :
+
+    class Employee {
+        private Address address;
+        private Department department;
+
+    ....
+
+Jika Anda memiliki 300 karyawan, dan semuanya harus memiliki departemen yang sama, dan ditambah departemen yang sama harus dibagi antara beberapa objek lain (seperti daftar departemen perusahaan, atau peran yang dimiliki masing-masing departemen, dll) maka akan mengalami kesulitan dengan visibilitas objek Departemen dan untuk membaginya melalui semua jaringan objek.
+
+Asumsikan file properti untuk injector dependensi fiktif :
+
+    #mock employee
+    employee.address = MockAddress.class
+    employee.department = MockDepartment.class
+
+    #production setup 
+    employee.address = RealAddress.class
+    employee.department = RealDepartment.class
+
+Kerangka Dependency Injector akan mengatur objek yang benar, sehingga tidak perlu kode setAddress atau setDepartment. Ini akan dilakukan dengan refleksi atau oleh pembuatan kode atau teknik lainnya.
+
+### IoC dan DI
+
+Contoh bagaimana pengaturan aplikasi Django menggunakan setting.py :
