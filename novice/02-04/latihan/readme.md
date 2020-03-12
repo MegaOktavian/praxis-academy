@@ -98,3 +98,81 @@ Kerangka Dependency Injector akan mengatur objek yang benar, sehingga tidak perl
 ### IoC dan DI
 
 Contoh bagaimana pengaturan aplikasi Django menggunakan setting.py :
+
+    CACHES = {
+        'default': {
+            'BACKEND': 'django_redis.cache.RedisCache',
+            'LOCATION': REDIS_URL + '/1',
+        },
+        'local': {
+            'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+            'LOCATION': 'snowflake',
+        }
+    }
+
+Django Rest Framework memnfaatkan Di :
+
+    class FooView(APIView):
+        # The "injected" dependencies:
+        permission_classes = (IsAuthenticated, )
+        throttle_classes = (ScopedRateThrottle, )
+        parser_classes = (parsers.FormParser, parsers.JSONParser, parsers.MultiPartParser)
+        renderer_classes = (renderers.JSONRenderer,)
+
+        def get(self, request, *args, **kwargs):
+            pass
+
+        def post(self, request, *args, **kwargs):
+            pass
+
+
+Ketika sebuah kelas mewarisi sebuah objek, maka dapat membuat variabel baru secara dinamis. Di python :
+
+    class Application(object):
+        def __init__(self):
+            pass
+
+    #main.py
+    Application.postgres_connection = PostgresConnection()
+
+    #other.py
+    postgres_connection = Application.postgres_connection
+    db_data = postgres_connection.fetchone()
+
+Di pyioc :
+
+    from libs.service_locator import ServiceLocator
+
+    #main.py
+    ServiceLocator.register(PostgresConnection)
+
+    #other.py
+    postgres_connection = ServiceLocator.resolve(PostgresConnection)
+    db_data = postgres_connection.fetchone()
+
+Contoh preferen pengkodean :
+
+    def polite(name_str):
+        return "dear " + name_str
+
+    def rude(name_str):
+        return name_str + ", you, moron"
+
+    def greet(name_str, call=polite):
+        print "Hello, " + call(name_str) + "!"
+
+Django memanfaatkan inversi kontrol. Misalnya, server basis data dipilih oleh file konfigurasi, maka kerangka kerja menyediakan contoh wrapping basis data yang sesuai untuk client basis data.
+
+Tipe data termasuk kelas adalah objek itu sendiri. Contoh :
+
+    if config_dbms_name == 'postgresql':
+        import psycopg
+        self.database_interface = psycopg
+    elif config_dbms_name == 'mysql':
+        ...
+
+Kemudian kode dapat membuat antarmuka database :
+
+    my_db_connection = self.database_interface()
+    # Do stuff with database.
+

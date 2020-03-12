@@ -1,5 +1,5 @@
 from containers import Readers, Clients, Configs
-from email_reader import EmailReader
+import EmailReader
 
 if __name__ == "__main__":
     Configs.config.override({
