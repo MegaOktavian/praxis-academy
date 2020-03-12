@@ -32,7 +32,7 @@ Contoh hal yang lebih lambat dari CPU Anda banyak, tetapi program Anda untungnya
 
 Mari kita lihat seperti apa tampilannya:
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2002-13-53.png)
 
 Dalam diagram di atas, kotak biru menunjukkan waktu ketika program  sedang bekerja, dan kotak merah dihabiskan untuk menunggu operasi I/O selesai. Diagram ini bukan untuk mengukur karena request di internet dapat mengambil beberapa pesanan lebih besar dari instruksi CPU, sehingga program dapat menghabiskan sebagian besar waktunya menunggu.
 
@@ -40,7 +40,7 @@ Di sisi lain, ada kelas program yang melakukan perhitungan signifikan tanpa berb
 
 Berikut diagram yang sesuai untuk program yang terikat CPU :
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2002-16-31.png)
 
 Saat mengerjakan contoh berikut, akan terlihat bahwa berbagai bentuk konkurensi berfungsi lebih baik atau lebih buruk dengan program yang terikat CPU dan I/O. Menambahkan konkurensi ke program menambah kode dan komplikasi tambahan, jadi harus memutuskan apakah potensi percepatan sebanding dengan upaya ekstra. 
 
@@ -61,7 +61,7 @@ Perhatikan bahwa program ini membutuhkan modul request. Menjalankan request :
 
     pip install requests
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2002-32-06.png)
 
 Versi ini tidak menggunakan konkurensi sama sekali:
 
@@ -89,7 +89,7 @@ Versi ini tidak menggunakan konkurensi sama sekali:
         duration = time.time() - start_time
         print(f"Downloaded {len(sites)} in {duration} seconds")
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2015-26-18.png)
 
 download_site () hanya mengunduh konten dari URL dan mencetak ukurannya. Dimungkinkan untuk menggunakan get() dari request secara langsung, tetapi membuat objek Session memungkinkan request untuk melakukan beberapa trik jaringan yang bagus dan benar-benar mempercepat.
 
@@ -158,7 +158,7 @@ Inilah pengujian tercepat saya. Ingat bahwa versi non-konkuren membutuhkan waktu
 
 Seperti apa diagram waktu pelaksanaannya :
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2016-45-01.png)
 
 ### Masalah dengan Versi threading.
 
@@ -224,7 +224,7 @@ sebelum menjalankannya :
         print(f"Downloaded {len(sites)} sites in {duration} seconds")
 
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2017-08-45.png)
 
 Versi ini sedikit lebih kompleks dari dua versi sebelumnya. Ini memiliki struktur yang serupa, tetapi ada sedikit lebih banyak pekerjaan yang mengatur task daripada menciptakan ThreadPoolExecutor.
 
@@ -255,7 +255,7 @@ Sifat asyncio berarti harus memulai loop event dan memberi tahu task mana yang h
 
 Diagram waktu eksekusi terlihat sangat mirip dengan apa yang terjadi pada contoh threading. Hanya saja request I/O dilakukan dengan thread yang sama:
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2017-20-04.png)
 
 Kurangnya wrapper yang bagus seperti ThreadPoolExecutor membuat kode ini sedikit lebih kompleks daripada contoh threading. Ini adalah kasus di mana harus melakukan sedikit pekerjaan ekstra untuk mendapatkan kinerja yang jauh lebih baik.
 
@@ -307,7 +307,7 @@ Tidak seperti pendekatan sebelumnya, versi multiprosessionng dari kode mengambil
         duration = time.time() - start_time
         print(f"Downloaded {len(sites)} in {duration} seconds")
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2017-24-28.png)
 
 #### multiprocessing Code
 
@@ -325,7 +325,7 @@ Parameter fungsi initializer dibuat hanya untuk kasus ini. Tidak ada cara untuk 
 
 Versi multiprosessionng dari contoh ini bagus karena relatif mudah disetel dan memerlukan sedikit kode tambahan. Ini juga mengambil keuntungan penuh dari daya CPU di komputer. Diagram waktu eksekusi untuk kode ini terlihat seperti ini :
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2017-25-57.png)
 
 ### Masalah dengan Versi multiprosessionng
 
@@ -370,13 +370,13 @@ Versi contoh yang tidak bersamaan :
         duration = time.time() - start_time
         print(f"Duration {duration} seconds")
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2017-30-24.png)
 
 Kode ini memanggil cpu_bound() 20 kali dengan jumlah besar yang berbeda setiap kali. Semua ini dilakukan pada satu thread dalam satu proses pada satu CPU. Diagram waktu eksekusi terlihat seperti ini:
 
 Timing Diagram dari Program Bound CPU
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2017-32-46.png)
 
 Tidak seperti contoh I/O-bound, contoh CPU-bound biasanya cukup konsisten dalam waktu menjalankannya. Yang ini membutuhkan waktu sekitar 7,8 detik pada mesin saya :
 
@@ -396,7 +396,7 @@ Namun, pada masalah yang terikat CPU, tidak perlu menunggu. CPU melakukan cranki
 
 Berbeda dengan pustaka konkurensi lainnya, multiprosesor dirancang secara eksplisit untuk berbagi beban kerja CPU yang besar di banyak CPU. Seperti apa diagram waktu pelaksanaannya :
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2017-34-34.png)
 
     import multiprocessing
     import time
@@ -419,7 +419,7 @@ Berbeda dengan pustaka konkurensi lainnya, multiprosesor dirancang secara ekspli
         duration = time.time() - start_time
         print(f"Duration {duration} seconds")
 
-![0203]()
+![0203](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/02-03/latihan/Screenshot%20from%202020-03-11%2017-36-42.png)
 
 Harus mengimpor multiprocessing dan kemudian hanya mengubah dari perulangan melalui angka untuk membuat objek multiprocessing.Pool dan menggunakan metode .map() untuk mengirim nomor individu ke proses pekerja saat mereka menjadi bebas. Proses parameter opsional ke konstruktor multiprocessing.Pool () layak mendapat perhatian. Dapat menentukan berapa banyak objek Proses yang ingin dibuat dan kelola di Pool. Secara default, ini akan menentukan berapa banyak CPU di mesin dan membuat proses untuk masing-masing. Walaupun ini bekerja dengan baik untuk contoh sederhana, mungkin ingin memiliki sedikit lebih banyak kontrol dalam lingkungan produksi.
 
