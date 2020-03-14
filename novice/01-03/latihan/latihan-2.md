@@ -292,9 +292,7 @@ Pernyataan for :
     for line in open("myfile.txt"):
         print(line, end='')
 
-Pernyataan for memanggil iter() sebagai objek penampung. Fungsi return sebuah iterator object yang mendefinisikan metode __next__() yang mengakses elemen dalam wadah satu per satu. Ketika tidak ada lagi elemen, __next __ () memunculkan eksepsi StopIteration yang memberi tahu for loop untuk mengakhiri. Dapat memanggil metode __next __ () menggunakan fungsi built-in next (); contoh ini menunjukkan cara kerjanya:
-
-![0103]()
+Pernyataan for memanggil iter() sebagai objek penampung. Fungsi return sebuah iterator object yang mendefinisikan metode __next__() yang mengakses elemen dalam wadah satu per satu. Ketika tidak ada lagi elemen, __next __ () memunculkan eksepsi StopIteration yang memberi tahu for loop untuk mengakhiri. Dapat memanggil metode __next __ () menggunakan fungsi built-in next ();
 
 metode __iter __ () yang mengembalikan objek dengan metode __next __ (). Jika kelas mendefinisikan __next __ (), maka __iter __ () dapat mengembalikan diri:
 
