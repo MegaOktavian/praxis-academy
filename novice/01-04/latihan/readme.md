@@ -249,7 +249,7 @@ o UML mendukung dekomposisi dan penyempurnaan struktural berbasis objek.
 2. Name (hubungan apa yang dimiliki objek)
 3. Navigability (arah)
 
-![0104]https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/materi%201/artikel%205/Screenshot%20from%202020-03-05%2000-54-08.png()
+![0104](https://github.com/MegaOktavian/rhymes/blob/master/gambar%20naive/01-04/materi%201/artikel%205/Screenshot%20from%202020-03-05%2000-54-08.png)
    
 ### Multiplicity dari asosiasi
 
