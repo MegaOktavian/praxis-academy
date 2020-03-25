@@ -601,4 +601,50 @@ Berikut adalah contoh file konfigurasi yang menggunakan variabel lingkungan :
 
     SELECT COUNT(*) FROM accounts;
 
-### 
+### Folder Instance
+
+Anda dapat secara eksplisit menyediakan path folder instance ketika membuat aplikasi Flask atau Anda dapat membiarkan Flask secara otomatis mendeteksi folder instance. Untuk konfigurasi eksplisit gunakan parameter instance_path :
+
+    app = Flask(__name__, instance_path='/path/to/instance/folder')
+
+Harap diingat bahwa jalur ini harus mutlak saat disediakan.
+
+Jika parameter instance_path tidak disediakan, lokasi default berikut digunakan:
+
+     Uninstalled module:
+
+    /myapp.py
+    /instance
+
+Uninstalled package:
+
+    /myapp
+        /__init__.py
+    /instance
+
+Install module atau package :
+
+    PREFIX/lib/python2.X/site-packages/myapp
+    PREFIX/var/myapp-instance
+
+Karena objek config menyediakan pemuatan file konfigurasi dari nama file relatif, kami memungkinkan untuk mengubah pemuatan melalui nama file menjadi relatif ke jalur instance jika diinginkan. Perilaku jalur relatif dalam file konfigurasi dapat dibalik antara "relatif ke root aplikasi" (default) ke "relatif ke instance folder" melalui switch instance_relative_config ke konstruktor aplikasi :
+
+    app = Flask(__name__, instance_relative_config=True)
+
+Berikut ini adalah contoh lengkap tentang cara mengkonfigurasi Flask untuk preload konfigurasi dari modul dan kemudian menimpa konfigurasi dari file dalam folder instance jika ada :
+
+    app = Flask(__name__, instance_relative_config=True)
+    app.config.from_object('yourapplication.default_settings')
+    app.config.from_pyfile('application.cfg', silent=True)
+
+Path ke folder instance dapat ditemukan melalui Flask.instance_path. Flask juga menyediakan jalan pintas untuk membuka file dari folder instance dengan Flask.open_instance_resource ().
+
+Contoh penggunaan untuk keduanya:
+
+    filename = os.path.join(app.instance_path, 'application.cfg')
+    with open(filename) as f:
+        config = f.read()
+
+    # or via open_instance_resource:
+    with app.open_instance_resource('application.cfg') as f:
+        config = f.read()
