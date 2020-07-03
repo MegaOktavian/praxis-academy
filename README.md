@@ -87,8 +87,6 @@
 
 ![gambar 12](https://github.com/MegaOktavian/rhymes/blob/master/projek%20bootcamp-online/1/Screenshot%20from%202020-07-03%2001-40-46.png)
 
-Setelah diubah
-
 ![gambar 13](https://github.com/MegaOktavian/rhymes/blob/master/projek%20bootcamp-online/1/Screenshot%20from%202020-07-03%2001-42-11.png)
 
 4. Pada metode GET, data telah diubah
@@ -106,7 +104,6 @@ Setelah diubah
 
 ![gambar 12](https://github.com/MegaOktavian/rhymes/blob/master/projek%20bootcamp-online/1/Screenshot%20from%202020-07-03%2001-40-46.png)
 
-Setelah dihapus
 
 ![gambar 16](https://github.com/MegaOktavian/rhymes/blob/master/projek%20bootcamp-online/1/Screenshot%20from%202020-07-03%2001-45-34.png)
 
